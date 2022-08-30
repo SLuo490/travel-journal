@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faE, faEarth } from '@fortawesome/free-solid-svg-icons';
+import { faEarth } from '@fortawesome/free-solid-svg-icons';
 import '../style.css';
 
 export default function Navbar() {
