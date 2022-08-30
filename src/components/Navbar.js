@@ -5,9 +5,9 @@ import '../style.css';
 export default function Navbar() {
   return (
     <nav className='navbar'>
-      <h1 className='nav--header'>
+      <h1 className='nav-header'>
         <FontAwesomeIcon className='fa-icon' icon={faEarth} />
-        my travel blog
+        my travel journal
       </h1>
     </nav>
   );

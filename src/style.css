@@ -16,3 +16,19 @@ body {
   background-color: #f55a5a;
   height: 55px;
 }
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: white;
+}
+
+.fa-icon {
+  color: white;
+  margin-right: 7px;
+  height: 25px;
+}
