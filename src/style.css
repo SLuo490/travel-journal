@@ -32,3 +32,17 @@ body {
   margin-right: 7px;
   height: 25px;
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+
+.location-img {
+  width: 250px;
+  height: 340px;
+  border-radius: 8px;
+  margin-right: 40px;
+}
