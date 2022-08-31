@@ -13,12 +13,12 @@ export default function Card() {
       <div className='info'>
         <div className='location'>
           <FontAwesomeIcon className='fa-location-icon' icon={faLocationDot} />
-          <span className='location-country'>Japan</span>
+          <span className='location-country'>JAPAN</span>
           <a href='https://goo.gl/maps/1DGM5WrWnATgkSNB8'>View on Google Map</a>
         </div>
         <div className='location-info'>
           <h1 className='location-title'>Mount Fuji</h1>
-          <h3>
+          <h3 className='date'>
             <span className='startDate'>12 Jan, 2021</span>-
             <span className='endDate'>24 Jan, 2021</span>
           </h3>
