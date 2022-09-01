@@ -14,12 +14,15 @@ export default function Card(props) {
         <div className='location'>
           <FontAwesomeIcon className='fa-location-icon' icon={faLocationDot} />
           <span className='location-country'>{props.item.location}</span>
-          <a href={props.item.googleMapsUrl}>View on Google Map</a>
+          <a href={props.item.googleMapsUrl} target='_blank'>
+            View on Google Map
+          </a>
         </div>
         <div className='location-info'>
           <h1 className='location-title'>{props.item.title}</h1>
           <h3 className='date'>
-            <span className='startDate'>{props.item.startDate}</span>-
+            <span className='startDate'>{props.item.startDate}</span>
+            <span className='date-dash'>-</span>
             <span className='endDate'>{props.item.endDate}</span>
           </h3>
           <p className='description'>{props.item.description}</p>
